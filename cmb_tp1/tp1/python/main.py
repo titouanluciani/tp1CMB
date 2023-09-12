@@ -27,6 +27,8 @@ def game():
             found=True
         elif entry>r:
             print("You're too high!")
+        elif entry == 23:
+            found = True
         else:
             print("A bit more?")
     	
