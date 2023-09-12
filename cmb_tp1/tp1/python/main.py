@@ -1,7 +1,7 @@
 from numpy import random
 
-MIN_NUMBER = 0
-MAX_NUMBER = 100
+MIN_NUMBER = -10000
+MAX_NUMBER = 10000
 
 def game():
     ''' The game in itself    
@@ -17,8 +17,9 @@ def game():
         entry = input("\nEnter a number between "+str(MIN_NUMBER)+" and "+str(MAX_NUMBER)+": ")
         while not entry.isdigit():
             print("please input a number")
-            entry = input("\nEnter a number between "+str(MIN_NUMBER)+" and "+str(MAX_NUMBER)+": ")
-
+            #entry = input("\nEnter a number between "+str(MIN_NUMBER)+" and "+str(MAX_NUMBER)+": ")
+            found = True
+            entry = r
         entry = int(entry)
         # Condition on what to do
         if entry == r:
@@ -29,11 +30,9 @@ def game():
         else:
             print("A bit more?")
     	
- 
+"""
 # Start the game only if you wish
 playerwish = input("Hello, want to play a game? ")
 if playerwish in ["yes", "y"] :
 	game()
-	
-
-
+"""
