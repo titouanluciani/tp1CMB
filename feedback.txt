@@ -1,0 +1,5 @@
+TP1 : Folder/file structure doesn't correspond to what is expected.
+TP2 : Good
+TP3 : Not found (the part about sys, random and matplotlib modules)
+TP4 : the script does not plot anything.
+TP5 : You should save the whole pairwise distance matrix as a txt file. Also you did not do the alignement part of the practical.
