@@ -102,7 +102,7 @@ N = []
 insert = []
 bubble = []
 heapsort = []
-"""
+
 
 for l in range(3, 13):
     n = 2**l
@@ -133,7 +133,7 @@ plt.plot(N, heapsort, "green", label="heapsort")
 plt.legend()
 plt.show()
 
-"""
+
 
 
 # 3 SEARCH IN SORTED ARRAY
